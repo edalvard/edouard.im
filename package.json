@@ -1,0 +1,43 @@
+{
+  "name": "edouard.im",
+  "version": "0.1.0",
+  "description": "The personal website of Edouard Alvard",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w -ws _",
+    "clean": "bsb -clean-world",
+    "server": "webpack-dev-server",
+    "webpack:build": "NODE_ENV=production webpack"
+  },
+  "homepage": "https://github.com/edalvard/edouard.im",
+  "bugs": {
+    "url": "https://github.com/edalvard/edouard.im/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edalvard/edouard.im.git"
+  },
+  "author": {
+    "name": "Edouard Alvard",
+    "email": "github@edouard.dev",
+    "url": "https://edouard.im"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bs-platform": "^7.2.2",
+    "css-loader": "^3.5.1",
+    "html-webpack-plugin": "^4.0.4",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "bs-css-emotion": "^1.1.0",
+    "bs-reach": "^0.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": "^0.7.0"
+  }
+}
